@@ -1,93 +1,88 @@
-# Componente D — Guion de Exposición Oral (7–10 Minutos) y Prompt para Gamma
+# Componente D — Guion de Exposición Oral (6 Diapositivas / Regla 10-20-30)
 
 > **Proyecto Integrador Final — Prácticas Profesionalizantes I (Instituto Nuevos Aires — INA)**  
-> **Alumno:** Ezequiel Quiroga | **Peso en rúbrica:** `30 %` (`12 pts`) | **Duración objetivo:** `8 a 9 minutos` (tope máximo `10 min`)
+> **Alumno:** Ezequiel Quiroga | **Peso en rúbrica:** `30 %` (`12 pts`) | **Estructura:** `6 diapositivas` (los 6 bloques de la Clase 14) | **Duración objetivo:** `7 a 9 minutos` (tope máximo `10 min`)
 
 ---
 
 ## 1. Recomendaciones Previas para la Defensa Virtual
 
 - **Cámara encendida y mirada al frente:** mirar a la cámara con postura erguida, usando gestos naturales y evitando leer apuntes al costado.
-- **Vocabulario técnico preciso:** decir *Product Backlog*, *Sprint Planning*, *One-Hot Encoding*, *matriz de confusión* o *sensibilidad (recall)* en lugar de expresiones imprecisas como *«esas cosas»*.
-- **Anclas visuales:** usar las palabras resaltadas en negrita de cada lámina como disparadores de la idea, **sin leer la diapositiva palabra por palabra**.
-- **Copia de seguridad y preparación:** tener abiertas con antelación la presentación `.pptx`, el repositorio GitHub/código y una copia en la nube + pendrive.
+- **Por qué 6 diapositivas:** la regla **10-20-30** fija un **máximo de 10 diapositivas**. Al concentrarlo en los **6 bloques fundamentales** de la Clase 14, dispones de **1 a 1,5 minutos por diapositiva**, hablando pausado y sin prisas.
+- **Anclas visuales:** usa las cifras y palabras en negrita de cada lámina como disparadores de la idea, **sin leer la diapositiva palabra por palabra**.
+- **Copia de seguridad y preparación:** tener abiertas con antelación la presentación `.pptx`, tu tablero de Trello y tu repositorio de GitHub.
 
 ---
 
-## 2. Guion Cronometrado Diapositiva por Diapositiva (Regla 10-20-30)
+## 2. Guion Cronometrado para las 6 Diapositivas (Con Ejemplos Cotidianos)
 
-### Diapositiva 1 — Portada *(0:00 – 0:30 | 30 s)*
-- **Anclas visuales:** Logo INA, Título del Proyecto, Ezequiel Quiroga, Prácticas Profesionalizantes I.
-- **Qué decir:** *«Buenas noches profesor y miembros del comité. Soy Ezequiel Quiroga, estudiante de la Tecnicatura Superior en Ciencia de Datos e IA del Instituto Nuevos Aires. Hoy presento mi Proyecto Integrador Final: la simulación profesional completa de un proyecto de predicción de abandono de clientes en telecomunicaciones, integrando gestión ágil con Scrum, Trello, GitHub, ética del dato y aprendizaje automático.»*
-
-### Diapositiva 2 — Problema de Negocio y Objetivo *(0:30 – 1:20 | 50 s)*
-- **Anclas visuales:** `7.043 clientes`, **`26,54 %` de abandono**, objetivo de retención preventiva.
-- **Qué decir:** *«Partimos de una situación problema real simulada en TelcoNova S.A.: de 7.043 clientes analizados, 1.869 —un 26,54 %— abandonaron el servicio. Como retener cuesta mucho menos que captar clientes nuevos, nuestro objetivo fue construir un flujo profesional capaz de anticipar qué usuarios tienen mayor riesgo de fuga y explicar por qué.»*
-
-### Diapositiva 3 — Equipo Simulado y Roles Scrum *(1:20 – 2:15 | 55 s)*
-- **Anclas visuales:** **Scrum Master (Ezequiel)**, *Product Owner*, *Data Engineer*, *Data Scientist*, *BI & Ethics Analyst*.
-- **Qué decir:** *«Para simular cómo trabaja un equipo real de Ciencia de Datos, estructuré cinco roles complementarios bajo el marco Scrum. Yo asumí el rol de Scrum Master y Líder Técnico —facilitando ceremonias y garantizando buenas prácticas de Git— acompañado por un Product Owner enfocado en el negocio, un Data Engineer para el pipeline limpio, un Data Scientist para el modelado y una analista de visualización y ética.»*
-
-### Diapositiva 4 — Planificación: Product Backlog y 3 Sprints *(2:15 – 3:15 | 60 s)*
-- **Anclas visuales:** `10 Historias de Usuario`, **`3 Sprints de 2 semanas`**, `28 Story Points comprometidos`.
-- **Qué decir:** *«Tradujimos las necesidades del negocio en un Product Backlog de 10 historias de usuario priorizadas por valor. La ejecución se organizó en tres Sprints de dos semanas: el Sprint 1 dedicado a la limpieza del dato y análisis exploratorio; el Sprint 2 al entrenamiento y validación del modelo; y el Sprint 3 a la auditoría ética, la documentación en GitHub y esta presentación. Las tareas de despliegue productivo quedan en el backlog futuro.»*
-
-### Diapositiva 5 — Gestión Visual en Trello y Artefactos *(3:15 – 4:10 | 55 s)*
-- **Anclas visuales:** Gráfico `03_tablero_trello_simulacion.png`, **4 columnas** (*Backlog, En proceso, Por verificar, Hecho*), ceremonias documentadas.
-- **Qué decir:** *«Como vemos en el tablero de Trello, gestionamos el avance mediante cuatro columnas transparentes, tarjetas con checklists de verificación y responsables claros. Todo quedó acompañado por actas simuladas de Sprint Planning, Daily Scrum, Sprint Review y Retrospectiva para asegurar trazabilidad.»*
-
-### Diapositiva 6 — Metodología Técnica y Flujo en GitHub *(4:10 – 5:10 | 60 s)*
-- **Anclas visuales:** **`11 nulos en TotalCharges`**, *One-Hot (`17` columnas)*, split `80/20`, ramas + `.env.example`.
-- **Qué decir:** *«En la parte técnica reutilizamos el pipeline validado en clase: detectamos 11 valores en blanco en TotalCharges correspondientes a clientes nuevos sin antigüedad y los imputamos con cero; excluimos `customerID`, transformamos las categorías a 17 variables mediante One-Hot Encoding y dividimos el dataset de forma estratificada en 5.634 casos de entrenamiento y 1.409 de prueba. Todo el código vive en GitHub bajo ramas de trabajo, Pull Requests y variables de entorno para no exponer configuraciones sensibles.»*
-
-### Diapositiva 7 — Análisis Exploratorio de Abandono (EDA) *(5:10 – 6:05 | 55 s)*
-- **Anclas visuales:** Gráfico `01_distribucion_churn.png`, **`42,71 %` Mes a mes vs. `2,83 %` 2 años**.
-- **Qué decir:** *«Si observamos el gráfico izquierdo, el dataset presenta un desbalance moderado: 73,46 % de permanencia frente al 26,54 % de abandono. Al cruzar ese dato con el tipo de contrato a la derecha, aparece un hallazgo clave de negocio: los clientes con contrato mes a mes alcanzan un 42,71 % de abandono, frente a apenas un 2,83 % en contratos a dos años.»*
-
-### Diapositiva 8 — Resultados del Modelo de IA (`DecisionTreeClassifier`) *(6:05 – 7:10 | 65 s)*
-- **Anclas visuales:** Gráfico `02_matriz_confusion_metricas.png`, **`79,56 %` Exactitud**, `192 VP / 182 FN`, `tenure (46,4 %)`.
-- **Qué decir:** *«Entrenamos un Árbol de Decisión con criterio Gini y profundidad máxima 4 para evitar sobreajuste. En el conjunto de prueba nunca visto alcanzó un 79,56 % de exactitud. La matriz de confusión nos muestra 929 verdaderos negativos y 192 clientes en riesgo detectados a tiempo, pero también nos advierte con honestidad técnica sobre 182 falsos negativos que se nos escapan. A la derecha vemos que las variables más decisivas fueron la antigüedad en meses (46,4 %) y contar con servicio de fibra óptica (39,3 %).»*
-
-### Diapositiva 9 — Ética y Responsabilidad Social del Dato *(7:10 – 8:15 | 65 s)*
-- **Anclas visuales:** **Privacidad (Ley 25.326)**, **Sesgos por desbalance (Ferrante, CONICET)**, **Transparencia y Human-in-the-Loop**.
-- **Qué decir:** *«Ningún proyecto de ciencia de datos está completo sin su auditoría ética. Primero protegimos la privacidad eliminando identificadores personales en línea con la Ley 25.326. Segundo, siguiendo a Enzo Ferrante, analizamos cómo el desbalance de datos genera casi un 50 % de falsos negativos en la clase minoritaria y recomendamos auditar variables como adulto mayor para evitar cualquier sesgo discriminatorio. Finalmente, elegimos un árbol poco profundo precisamente para explicar cada regla y mantener siempre la decisión comercial en manos humanas.»*
-
-### Diapositiva 10 — Conclusiones, Recomendaciones y Bibliografía *(8:15 – 9:05 | 50 s)*
-- **Anclas visuales:** Retención proactiva, ajuste `class_weight`, integración CRM, **Referencias APA 7.ª ed.**
-- **Qué decir:** *«Como conclusión, integramos herramientas profesionales reales —Scrum, Trello, GitHub y Python— sobre un problema de alto impacto comercial. Recomendamos enfocar campañas de fidelización en clientes nuevos de fibra óptica con contrato mensual y ajustar el peso de clases en la próxima iteración para reducir los falsos negativos. En pantalla quedan las referencias bibliográficas en normas APA. Muchas gracias, quedo atento a sus preguntas.»*
+### Diapositiva 1 — Portada Institucional *(0:00 – 0:40 | 40 s)*
+- **Anclas visuales:** Logo INA, Título del Proyecto, **Ezequiel Quiroga**, Prácticas Profesionalizantes I.
+- **Ejemplo cotidiano para recordarla:** Es tu tarjeta de presentación al entrar a la reunión.
+- **Qué decir al profesor:**  
+  *«Buenas noches profesor y miembros del comité. Soy Ezequiel Quiroga, estudiante de la Tecnicatura Superior en Ciencia de Datos e IA del Instituto Nuevos Aires. Hoy presento mi Proyecto Integrador Final: la simulación profesional completa de un proyecto de predicción de abandono de clientes en telecomunicaciones, integrando gestión ágil con Scrum, Trello, GitHub, ética del dato y aprendizaje automático.»*
 
 ---
 
-## 3. Banco de Preguntas Posibles del Comité y Respuestas
-
-1. **¿Por qué elegiste un Árbol de Decisión con `max_depth=4` y no un modelo más complejo?**  
-   *Respuesta:* Porque en un contexto comercial necesitamos explicabilidad (*transparencia algorítmica*) para que el equipo de marketing entienda el motivo del riesgo, y limitar la profundidad a 4 niveles previene que el modelo memorice ruido de los datos de entrenamiento (*overfitting*).
-2. **¿Cómo manejaste el riesgo de subir claves o datos sensibles a GitHub?**  
-   *Respuesta:* Trabajamos sobre una base anonimizada sin `customerID`, excluimos cualquier archivo `.env` mediante `.gitignore`, documentamos los parámetros en `.env.example` y aplicamos ramas con *Pull Request* antes de tocar `main`.
-3. **¿Por qué hay 182 falsos negativos en la matriz de confusión y cómo los reducirías?**  
-   *Respuesta:* Porque la clase de abandono es minoritaria (`26,54 %`). Si en el negocio cuesta más perder un cliente que enviar un descuento preventivo, usaríamos `class_weight="balanced"` o bajaríamos el umbral de decisión para ganar sensibilidad (*recall*).
-4. **Si el proyecto se atrasaba a mitad del Sprint 2, ¿qué hacías como Scrum Master?**  
-   *Respuesta:* Detectábamos el bloqueo en la *Daily*, priorizábamos junto al *Product Owner* las historias críticas del núcleo del modelo, apoyábamos al compañero rezagado y nunca mostrábamos trabajo incompleto o roto en la *Sprint Review*.
-5. **¿Qué rol cumple el informe de ética en un proyecto comercial de IA?**  
-   *Respuesta:* Evita que el algoritmo opere como una «caja negra» que reproduzca sesgos por edad o forma de pago, asegura el cumplimiento legal de privacidad (Ley 25.326) y limita las predicciones a un apoyo para decisiones humanas constructivas.
-6. **¿Por qué aplicaste la regla 10-20-30 en esta presentación?**  
-   *Respuesta:* Para condensar todo el proyecto en 10 láminas visuales limpias, respetar estrictamente el límite de 10 minutos de exposición y garantizar una lectura clara desde cualquier pantalla usando tipografías grandes *Sans Serif*.
+### Diapositiva 2 — 1. Problema de Negocio y Análisis Exploratorio (EDA) *(0:40 – 2:00 | 1 min 20 s)*
+- **Anclas visuales:** Gráfico `01_distribucion_churn.png`, `7.043 clientes`, **`26,54 %` de bajas**, **`42,71 %` en contrato mes a mes vs. `2,83 %` a 2 años**.
+- **Ejemplo cotidiano para recordarla:** Como un gimnasio donde se borran 26 de cada 100 socios, y al mirar las fichas descubres que los que se van son los que pagan mes a mes sin compromiso (`42,71 %`), mientras que los que firmaron por 2 años casi no se van (`2,83 %`).
+- **Qué decir al profesor:**  
+  *«Partimos de un problema real simulado en TelcoNova S.A.: sobre una base de 7.043 clientes, 1.869 —un 26,54 %— se dieron de baja. Como conseguir un cliente nuevo cuesta entre 5 y 7 veces más que retener a uno actual, analizamos dónde ocurre la fuga. En el gráfico de la derecha vemos el hallazgo comercial clave: los clientes con contrato mes a mes alcanzan un 42,71 % de abandono, frente a apenas un 2,83 % en contratos a dos años. Nuestro objetivo fue crear un sistema capaz de anticipar quién está en riesgo antes de que cancele.»*
 
 ---
 
-## 4. Prompt Listo para Copiar en Gamma (`gamma.app`) *(Alternativa / Respaldo IA)*
+### Diapositiva 3 — 2. Gestión Ágil: Equipo Scrum, 3 Sprints y Tablero Trello *(2:00 – 3:30 | 1 min 30 s)*
+- **Anclas visuales:** Tablero `03_tablero_trello_simulacion.png`, **5 Roles Scrum (Ezequiel = Scrum Master)**, **10 Historias (`HU-01` a `HU-10`)**, **3 Sprints** y **4 columnas en Trello**.
+- **Ejemplo cotidiano para recordarla:** Los 5 roles son como la cocina de un restaurante donde tú eres el jefe de cocina (*Scrum Master*); los 3 Sprints son las 3 etapas de una obra quincenal; y Trello es la pantalla de pedidos donde cada tarea pasa de *Lista de tareas* a *En proceso*, luego a *Por verificar con el cliente* y finalmente a *Hecho*.
+- **Qué decir al profesor:**  
+  *«Para trabajar como un equipo real de Ciencia de Datos, estructuré cinco roles Scrum donde asumí el papel de Scrum Master y Líder Técnico, acompañado por un Product Owner, un Ingeniero de Datos, un Científico de Datos y una Analista de BI y Ética. Dividimos el trabajo en 10 historias de usuario a lo largo de tres Sprints de dos semanas: el Sprint 1 para limpieza y exploración; el Sprint 2 para entrenar el modelo; y el Sprint 3 para auditoría ética, GitHub y defensa, dejando las mejoras productivas en el backlog futuro. Todo se gestionó en este tablero público de Trello de cuatro columnas con etiquetas de estado, checklists y actas de las cuatro ceremonias Scrum.»*
 
-> **Contexto y rol:** Actúa como un especialista en Ciencia de Datos y gestión ágil que presenta su Proyecto Integrador Final ante un tribunal académico de la carrera Tecnicatura Superior en Ciencia de Datos e IA del Instituto Nuevos Aires (INA).  
-> **Audiencia y tono:** Tribunal técnico y docente; tono profesional, claro, estructurado y orientado tanto a negocio como a rigurosidad metodológica.  
-> **Instrucción y estructura exacta (10 diapositivas):** Crea una presentación de exactamente 10 diapositivas siguiendo la regla 10-20-30 (texto conciso con palabras clave, sin párrafos largos, diseño sobrio azul oscuro corporativo y celeste). Estructura obligatoria:  
-> 1. Portada: «Proyecto Integrador Final: Simulación Profesional en Ciencia de Datos e IA — Predicción de Abandono de Clientes», autor Ezequiel Quiroga, Instituto Nuevos Aires (INA), Noviembre 2026.  
-> 2. Introducción y Problema de Negocio: TelcoNova S.A., 7.043 clientes, 26,54 % de abandono, impacto económico de la retención.  
-> 3. Equipo Simulado y Roles Scrum: Scrum Master (Ezequiel Quiroga), Product Owner, Data Engineer, Data Scientist y BI & Ethics Analyst.  
-> 4. Planificación Ágil: Product Backlog de 10 historias de usuario y 3 Sprints de 2 semanas (28 Story Points).  
-> 5. Gestión Visual en Trello: Tablero de 4 columnas (Backlog, En proceso, Por verificar, Hecho) y ceremonias Scrum documentadas.  
-> 6. Metodología Técnica y GitHub: Limpieza de 11 nulos en TotalCharges, One-Hot Encoding (17 variables), split estratificado 80/20, ramas Git y seguridad con variables de entorno.  
-> 7. Hallazgos Exploratorios (EDA): 42,71 % de abandono en contratos mes a mes frente a 2,83 % a dos años.  
-> 8. Resultados del Árbol de Decisión (`max_depth=4`, Gini): 79,56 % de exactitud, matriz de confusión (929 VN, 106 FP, 182 FN, 192 VP) y variables clave (antigüedad 46,4 %, fibra óptica 39,3 %).  
-> 9. Ética y Responsabilidad del Dato: Privacidad (Ley 25.326), sesgos por desbalance (Enzo Ferrante, CONICET), explicabilidad y control humano.  
-> 10. Conclusiones, Recomendaciones de Negocio y Bibliografía en formato APA 7.ª edición.  
-> **Nota importante:** Tras generarla y exportarla a PowerPoint (`.pptx`), insertar nuestras 3 gráficas reales de `assets/` y el logo transparente oficial del INA en la portada y encabezados.
+---
+
+### Diapositiva 4 — 3. Metodología Técnica, GitHub Seguro y Ética del Dato *(3:30 – 5:00 | 1 min 30 s)*
+- **Anclas visuales:** **`11 vacíos en TotalCharges`**, sin `customerID`, **One-Hot (`17` columnas)**, partición **`80/20`**, GitHub con `.env`, **Ley 25.326**, **Enzo Ferrante (CONICET)** y **Human-in-the-Loop**.
+- **Ejemplo cotidiano para recordarla:** A la izquierda, la cocina técnica (poner `0` a los 11 clientes nuevos sin primera factura, traducir palabras a unos y ceros para la calculadora, separar 80 % para estudiar y 20 % para el examen, y no dejar contraseñas en GitHub). A la derecha, las reglas éticas (tapar el DNI del cliente por la Ley 25.326, vigilar el desbalance de datos y que la IA sea como un GPS donde la decisión final siempre la toma una persona).
+- **Qué decir al profesor:**  
+  *«En la tarjeta izquierda vemos el flujo técnico: detectamos 11 celdas vacías en TotalCharges de clientes recién ingresados y las imputamos con cero; quitamos el identificador customerID, transformamos las categorías a 17 columnas numéricas con One-Hot Encoding y dividimos el dataset 80/20 de forma estratificada. Todo el código se publicó en GitHub usando ramas, Pull Requests y variables de entorno para no exponer claves. En la tarjeta derecha integramos la auditoría ética: cumplimos la Ley 25.326 de protección de datos personales, analizamos el sesgo por desbalance de clases siguiendo a Enzo Ferrante y garantizamos transparencia con supervisión humana.»*
+
+---
+
+### Diapositiva 5 — 4. Resultados del Árbol de Decisión (`n = 1.409` prueba) *(5:00 – 6:30 | 1 min 30 s)*
+- **Anclas visuales:** Gráfico `02_matriz_confusion_metricas.png`, **`79,56 %` de exactitud**, **`192 VP` detectados**, **`182 FN` que escapan**, **Antigüedad (`46,4 %`)** y **Fibra óptica (`39,3 %`)**.
+- **Ejemplo cotidiano para recordarla:** El Árbol de nivel 4 (`max_depth=4`) es como jugar al *«¿Quién es quién?»* con solo 4 preguntas para que no memorice de memoria. La Matriz de Confusión es la alarma: acertó en 929 clientes fieles y cazó a 192 que se iban a ir, tuvo 106 falsas alarmas y se le escaparon 182 porque en los datos históricos había muchos más clientes que se quedaban que los que se iban.
+- **Qué decir al profesor:**  
+  *«Entrenamos un Árbol de Decisión con criterio Gini y profundidad máxima 4 para evitar sobreajuste y poder explicar cada regla al negocio. En los 1.409 clientes del examen alcanzó un 79,56 % de exactitud. La matriz de confusión confirma 929 verdaderos negativos y 192 clientes en riesgo detectados a tiempo, pero también nos muestra con honestidad técnica 182 falsos negativos que se escapan debido al desbalance 73/27 del dataset. A la derecha vemos que los dos factores más decisivos son la antigüedad en meses (46,4 %) y tener fibra óptica (39,3 %).»*
+
+---
+
+### Diapositiva 6 — 5. Conclusiones, Recomendaciones y Bibliografía (APA) *(6:30 – 7:45 | 1 min 15 s)*
+- **Anclas visuales:** Fidelizar fibra óptica mensual, **`class_weight='balanced'`**, conexión CRM (`HU-09`) y **Bibliografía APA 7.ª ed.**
+- **Ejemplo cotidiano para recordarla:** La receta final del médico: hoy mismo cuidamos a los clientes nuevos de fibra óptica con contrato mensual; en la versión 2 ajustamos la sensibilidad de la alarma (`class_weight='balanced'`) para atrapar a esos 182 que se escaparon; y cerramos con las fuentes oficiales en formato APA.
+- **Qué decir al profesor:**  
+  *«Como conclusión, logramos articular Scrum, Trello, GitHub y Python en una solución aplicable al negocio. Recomendamos enfocar campañas preventivas en clientes nuevos de fibra óptica con contrato mes a mes y, en la siguiente iteración técnica, aplicar balanceo de pesos de clase para reducir los 182 falsos negativos antes de conectar las alertas al CRM. A la derecha quedan las referencias bibliográficas en formato APA séptima edición. Muchas gracias, quedo a disposición para sus preguntas.»*
+
+---
+
+## 3. Banco de Preguntas Posibles del Comité y Respuestas Cortas
+
+1. **¿Por qué hiciste 6 diapositivas en lugar de 10?**  
+   *Respuesta:* Porque la regla 10-20-30 establece un tope máximo de 10 diapositivas, y al estructurarla exactamente en los **6 bloques fundamentales** vimos en la Clase 14 logramos mayor síntesis visual y mejor control del tiempo sin omitir ningún componente.
+2. **¿Por qué elegiste un Árbol de Decisión con `max_depth=4`?**  
+   *Respuesta:* Porque el área comercial necesita entender el porqué de cada alerta (*transparencia algorítmica*), y limitar el árbol a 4 niveles evita que memorice ruido (*overfitting*).
+3. **¿Cómo protegiste la seguridad al subir el proyecto a GitHub?**  
+   *Respuesta:* Eliminamos `customerID`, excluimos archivos `.env` mediante `.gitignore`, dejamos una plantilla `.env.example` sin claves y trabajamos con ramas y *Pull Requests*.
+4. **¿Por qué hay 182 falsos negativos y cómo los bajarías?**  
+   *Respuesta:* Porque solo el `26,54 %` del dataset son bajas. Para atrapar más casos en riesgo aplicaríamos `class_weight="balanced"` o ajustaríamos el umbral de probabilidad.
+
+---
+
+## 4. Prompt Listo para Gamma (`gamma.app`) — Versión 6 Diapositivas
+
+> **Instrucción:** Crea una presentación ejecutiva de exactamente **6 diapositivas** (regla 10-20-30, diseño azul marino corporativo y celeste, texto conciso con viñetas cortas) para el Proyecto Integrador Final de Ezequiel Quiroga en el Instituto Nuevos Aires (INA):  
+> 1. **Portada:** Simulación Profesional en Ciencia de Datos e IA — Predicción de Abandono de Clientes (Telco Churn), Ezequiel Quiroga, INA, Noviembre 2026.  
+> 2. **Problema de Negocio y Exploración (EDA):** TelcoNova S.A. (7.043 clientes, 26,54 % de baja); hallazgo crítico: 42,71 % de abandono en contratos mes a mes frente a 2,83 % en contratos a 2 años.  
+> 3. **Gestión Ágil con Scrum y Trello:** 5 roles simulados (Ezequiel Quiroga como Scrum Master), 10 historias de usuario (`HU-01` a `HU-10`) en 3 Sprints de 2 semanas y tablero Trello de 4 columnas.  
+> 4. **Metodología Técnica, GitHub y Ética:** Limpieza de 11 vacíos en `TotalCharges`, One-Hot Encoding (17 columnas), partición 80/20, GitHub seguro con `.env`, cumplimiento de Ley 25.326, análisis de sesgos (Enzo Ferrante, CONICET) y *Human-in-the-Loop*.  
+> 5. **Resultados del Modelo (`DecisionTreeClassifier`, `max_depth=4`):** 79,56 % de exactitud sobre 1.409 clientes de prueba, matriz de confusión (929 VN, 106 FP, 182 FN, 192 VP) e importancia de variables (antigüedad 46,4 % y fibra óptica 39,3 %).  
+> 6. **Conclusiones, Recomendaciones y Bibliografía APA 7.ª ed.:** Campañas en clientes nuevos de fibra con contrato mensual, ajuste `class_weight='balanced'` y referencias APA.
