@@ -1,0 +1,11 @@
+Lista,Tarjeta,Descripcion,Etiquetas,Responsable,Fecha_Limite,Checklist_Completado
+"1. Lista de Tareas (Backlog)","[HU-09] Despliegue API de alertas CRM","Exponer endpoint seguro para consultar riesgo de abandono desde el CRM comercial.","Backlog Futuro;Backend","PO + Dev","2026-12-05","0/3"
+"1. Lista de Tareas (Backlog)","[HU-10] Monitoreo de deriva de datos","Implementar alertas mensuales por cambio en distribucion de tarifas o contratos.","Backlog Futuro;DataOps","Data Engineer","2026-12-12","0/2"
+"2. En proceso","[HU-08] Ensayo oral (guion 10 minutos)","Practicar defensa oral cronometrada con anclas visuales y banco de preguntas.","Sprint 3;Presentacion","Ezequiel Quiroga","2026-11-23","2/3"
+"2. En proceso","[HU-07] Ajuste final diapositivas 10-20-30","Verificar logo INA, tamanos >= 20 pt, contraste y citas APA 7.a ed.","Sprint 3;Diseno","BI & Ethics Analyst","2026-11-22","3/4"
+"3. Por verificar con el Cliente","[HU-05] Informe breve de etica y sesgos","Auditoria de privacidad (Ley 25.326), desbalance de clases y mitigacion.","Sprint 3;Etica","BI & Ethics Analyst","2026-11-21","4/4"
+"3. Por verificar con el Cliente","[HU-06] README HTML y repositorio GitHub","Documentar arquitectura, metricas, comandos y reglas .env sin secretos.","Sprint 3;GitHub","Ezequiel Quiroga","2026-11-21","4/4"
+"4. Hecho","[HU-01] Problema y roles Scrum simulados","Definir objetivo comercial, roles del equipo, Product Backlog y 3 Sprints.","Sprint 1;Scrum","Ezequiel Quiroga","2026-11-15","3/3"
+"4. Hecho","[HU-02] Limpieza datos TotalCharges y EDA","Convertir TotalCharges, imputar 11 nulos con 0 y graficar tasas de abandono.","Sprint 1;Datos","Data Engineer","2026-11-16","4/4"
+"4. Hecho","[HU-03] One-Hot Encoding y particion 80/20","Excluir customerID, codificar 17 columnas y dividir 5.634 train / 1.409 test.","Sprint 2;ML","Data Scientist","2026-11-17","3/3"
+"4. Hecho","[HU-04] Arbol Gini max_depth=4 (79,56%)","Entrenar modelo interpretable y validar matriz VN=929, FP=106, FN=182, VP=192.","Sprint 2;ML","Data Scientist","2026-11-18","5/5"
