@@ -135,6 +135,10 @@ proyecto-integrador-final-churn-ia/
 ### Cómo reproducir los resultados y regenerar los gráficos
 
 ```bash
+# 0. Clonar el repositorio y entrar en la carpeta
+git clone https://github.com/eze2307/proyecto-integrador-final-churn-ia.git
+cd proyecto-integrador-final-churn-ia
+
 # 1. Crear y activar entorno virtual (Windows PowerShell)
 python -m venv .venv
 .venv\Scripts\Activate.ps1
